@@ -36,16 +36,17 @@ This project walks through the installation and initial setup of the open-source
 
 <h3>Step 1 - Create a Windows 11 Virtual Machine</h3>
 
-<p>
-<img src="<img width="1801" height="286" alt="image" src="https://github.com/user-attachments/assets/c42984dc-892f-4bd0-85be-0b42ecee28c8" />
-" width="80%" alt="Azure Virtual Machine"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c42984dc-892f-4bd0-85be-0b42ecee28c8" width="80%" alt="Windows 11 Virtual Machine in Microsoft Azure"/>
+</p>
+
+<p align="center">
+<b>Figure 1.</b> Windows 11 virtual machine created in Microsoft Azure for the osTicket installation lab.
 </p>
 
 <p>
-Create a Windows 11 virtual machine in Microsoft Azure and connect to it using Remote Desktop.
+A Windows 11 virtual machine was created in Microsoft Azure to host the osTicket help desk application. This virtual machine serves as the environment where all installation and configuration tasks are completed.
 </p>
-
-<br />
 
 <h3>Step 2 - Install Internet Information Services (IIS)</h3>
 
