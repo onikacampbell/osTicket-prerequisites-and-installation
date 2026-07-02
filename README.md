@@ -37,7 +37,8 @@ This project walks through the installation and initial setup of the open-source
 <h3>Step 1 - Create a Windows 11 Virtual Machine</h3>
 
 <p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="Azure Virtual Machine"/>
+<img src="<img width="1801" height="286" alt="image" src="https://github.com/user-attachments/assets/c42984dc-892f-4bd0-85be-0b42ecee28c8" />
+" width="80%" alt="Azure Virtual Machine"/>
 </p>
 
 <p>
