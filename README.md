@@ -78,7 +78,7 @@ IIS Manager was opened to verify that the web server was installed correctly and
 <br>
 
 <p align="center">
-  <img src="PASTE-IIS-WELCOME-PAGE-IMAGE-LINK-HERE" width="80%" alt="Default IIS Website"/>
+  <img src="https://github.com/user-attachments/assets/104819d5-5ae3-4fb9-8757-5fa22f6675a6" width="80%" alt="Default IIS Website"/>
 </p>
 
 <p align="center">
