@@ -206,15 +206,31 @@ The MySQL Server 5.5 installation package was launched from the osTicket install
 
 <h3>Step 7 - Install HeidiSQL</h3>
 
-<p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="HeidiSQL"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4327d7d6-52e6-4983-a6f9-fb5d511aee5e" width="80%" alt="HeidiSQL Installer"/>
+</p>
+
+<p align="center">
+<b>Figure 13.</b> HeidiSQL installation package used during the osTicket installation.
 </p>
 
 <p>
-Install HeidiSQL and verify the MySQL connection.
+The HeidiSQL installation package was launched from the osTicket installation files. HeidiSQL provides a graphical interface for connecting to and managing the MySQL database server used by the osTicket application.
 </p>
 
-<br />
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb47d391-172f-4648-9487-9e9eb6acd3b5" width="80%" alt="HeidiSQL Connected to MySQL"/>
+</p>
+
+<p align="center">
+<b>Figure 14.</b> HeidiSQL successfully connected to the local MySQL server and displaying the osTicket database.
+</p>
+
+<p>
+After connecting successfully, HeidiSQL displayed the <code>osticket</code> database and its tables, confirming that the MySQL server was functioning correctly and was ready for the osTicket application.
+</p>
 
 <h3>Step 8 - Install osTicket</h3>
 
