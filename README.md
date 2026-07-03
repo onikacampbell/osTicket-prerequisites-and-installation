@@ -48,11 +48,13 @@ This project walks through the installation and initial setup of the open-source
 A Windows 11 virtual machine was created in Microsoft Azure to host the osTicket help desk application. This virtual machine serves as the environment where all installation and configuration tasks are completed.
 </p>
 
+<br />
+
 <h3>Step 2 - Install Internet Information Services (IIS)</h3>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/39b2e647-95ca-4a1c-b99d-811491905b1c" width="80%" alt="Windows Features - IIS"/>
-  </p>
+</p>
 
 <p align="center">
 <b>Figure 2.</b> Internet Information Services (IIS) enabled through the Windows Features menu.
@@ -62,7 +64,7 @@ A Windows 11 virtual machine was created in Microsoft Azure to host the osTicket
 Internet Information Services (IIS) was enabled by selecting the required web server features from the Windows Features dialog. IIS provides the web server environment required to host the osTicket application.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/648cb690-9ef6-4bfe-b257-3a66e93f4cea" width="80%" alt="IIS Manager"/>
@@ -76,7 +78,7 @@ Internet Information Services (IIS) was enabled by selecting the required web se
 IIS Manager was opened to verify that the web server was installed correctly and to access the management console used for configuring websites, application pools, and server features throughout the osTicket installation.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/104819d5-5ae3-4fb9-8757-5fa22f6675a6" width="80%" alt="Default IIS Website"/>
@@ -89,6 +91,8 @@ IIS Manager was opened to verify that the web server was installed correctly and
 <p>
 The default IIS landing page was successfully displayed, confirming that the web server was operational and able to serve web content before continuing with the remaining osTicket installation steps.
 </p>
+
+<br />
 
 <h3>Step 3 - Install PHP Manager and IIS URL Rewrite Module</h3>
 
@@ -104,7 +108,7 @@ The default IIS landing page was successfully displayed, confirming that the web
 PHP Manager for IIS was installed to simplify the configuration and management of PHP within Internet Information Services (IIS). This tool provides an interface for registering PHP and managing PHP settings required by the osTicket application.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9cc3c823-5e1e-4ae2-99bd-396bf591d476" width="80%" alt="IIS URL Rewrite Module"/>
@@ -118,7 +122,7 @@ PHP Manager for IIS was installed to simplify the configuration and management o
 The IIS URL Rewrite Module was installed to enable URL rewriting functionality required by osTicket. This component allows IIS to process and rewrite incoming URL requests before they are handled by the web application.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fb1fb21e-025c-4acb-9fbd-2ea804853023" width="80%" alt="PHP Manager and URL Rewrite in IIS"/>
@@ -131,6 +135,8 @@ The IIS URL Rewrite Module was installed to enable URL rewriting functionality r
 <p>
 After both components were installed, IIS Manager was opened to verify that the PHP Manager and URL Rewrite modules were successfully added and available for configuring the osTicket web application.
 </p>
+
+<br />
 
 <h3>Step 4 - Install PHP</h3>
 
@@ -146,7 +152,7 @@ After both components were installed, IIS Manager was opened to verify that the 
 The PHP package was extracted to the <code>C:\PHP</code> directory, where the PHP executable files were stored for use by Internet Information Services (IIS).
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0954d452-81e3-46b3-bad7-cba06280eeb6" width="80%" alt="FastCGI Settings"/>
@@ -160,7 +166,7 @@ The PHP package was extracted to the <code>C:\PHP</code> directory, where the PH
 FastCGI Settings were configured to register <code>C:\PHP\php-cgi.exe</code>, enabling IIS to process PHP requests for the osTicket application.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3fb500ab-b105-4b3d-9bd7-9e4d318bfde9" width="80%" alt="PHP Manager"/>
@@ -173,6 +179,8 @@ FastCGI Settings were configured to register <code>C:\PHP\php-cgi.exe</code>, en
 <p>
 PHP Manager was used to verify that PHP was successfully registered with IIS and that the required PHP configuration files and extensions were available before proceeding with the remaining osTicket installation.
 </p>
+
+<br />
 
 <h3>Step 5 - Install Microsoft Visual C++ Redistributable</h3>
 
@@ -188,6 +196,8 @@ PHP Manager was used to verify that PHP was successfully registered with IIS and
 The Microsoft Visual C++ 2015–2022 Redistributable (x86) was installed to provide the runtime libraries required by PHP. This dependency ensures that PHP and the osTicket application can run properly within the IIS web server environment.
 </p>
 
+<br />
+
 <h3>Step 6 - Install MySQL Server</h3>
 
 <p align="center">
@@ -202,7 +212,7 @@ The Microsoft Visual C++ 2015–2022 Redistributable (x86) was installed to prov
 The MySQL Server 5.5 installation package was launched from the osTicket installation files to install the database server required by osTicket. During the installation, a root administrator account was configured to manage the MySQL database used by the osTicket application.
 </p>
 
-<br>
+<br />
 
 <h3>Step 7 - Install HeidiSQL</h3>
 
@@ -218,7 +228,7 @@ The MySQL Server 5.5 installation package was launched from the osTicket install
 The HeidiSQL installation package was launched from the osTicket installation files. HeidiSQL provides a graphical interface for connecting to and managing the MySQL database server used by the osTicket application.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bb47d391-172f-4648-9487-9e9eb6acd3b5" width="80%" alt="HeidiSQL Connected to MySQL"/>
@@ -229,8 +239,10 @@ The HeidiSQL installation package was launched from the osTicket installation fi
 </p>
 
 <p>
-After connecting successfully, HeidiSQL displayed the <code>osticket</code> database and its tables, confirming that the MySQL server was functioning correctly and was ready for the osTicket application.
+After connecting successfully, HeidiSQL displayed the <code>osticket</code> database and its tables, confirming that the MySQL server was functioning correctly and ready for the osTicket application.
 </p>
+
+<br />
 
 <h3>Step 8 - Install osTicket</h3>
 
@@ -246,7 +258,7 @@ After connecting successfully, HeidiSQL displayed the <code>osticket</code> data
 The osTicket installation package was extracted from the installation files and prepared for deployment to the IIS web root directory so that the application could be hosted by Internet Information Services (IIS).
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/03bd3b1d-3639-4e1c-b446-676efcdc58b5" width="80%" alt="osTicket Installer"/>
@@ -260,7 +272,7 @@ The osTicket installation package was extracted from the installation files and 
 Accessing the osTicket installer displayed a message indicating that the application was already installed, confirming that the deployment had completed successfully and that the configuration files were in place.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8ba584da-42c7-476e-8b67-1198354bb5b7" width="80%" alt="osTicket Agent Login"/>
@@ -274,7 +286,7 @@ Accessing the osTicket installer displayed a message indicating that the applica
 The Agent Login page was successfully displayed, confirming that the web application was accessible through IIS and ready to authenticate users.
 </p>
 
-<br>
+<br />
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cd6dfe68-8e07-4cec-9cfe-9c32048bf636" width="80%" alt="osTicket Administrator Panel"/>
@@ -288,7 +300,7 @@ The Agent Login page was successfully displayed, confirming that the web applica
 After signing in with the administrator account, the osTicket dashboard loaded successfully, confirming that IIS, PHP, MySQL, and osTicket were configured correctly and that the help desk environment was ready for post-installation configuration.
 </p>
 
-<br>
+<br />
 
 <h2>Installation Complete</h2>
 
