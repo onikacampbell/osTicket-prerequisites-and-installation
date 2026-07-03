@@ -188,17 +188,21 @@ PHP Manager was used to verify that PHP was successfully registered with IIS and
 The Microsoft Visual C++ 2015–2022 Redistributable (x86) was installed to provide the runtime libraries required by PHP. This dependency ensures that PHP and the osTicket application can run properly within the IIS web server environment.
 </p>
 
-<h3>Step 6 - Install MySQL</h3>
+<h3>Step 6 - Install MySQL Server</h3>
 
-<p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="MySQL Installation"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/da124d64-8906-4da7-be2c-c5fcb402b709" width="80%" alt="MySQL Server Installer"/>
+</p>
+
+<p align="center">
+<b>Figure 12.</b> MySQL Server 5.5 installation package used during the osTicket installation.
 </p>
 
 <p>
-Install MySQL Server and configure the root account.
+The MySQL Server 5.5 installation package was launched from the osTicket installation files to install the database server required by osTicket. During the installation, a root administrator account was configured to manage the MySQL database used by the osTicket application.
 </p>
 
-<br />
+<br>
 
 <h3>Step 7 - Install HeidiSQL</h3>
 
