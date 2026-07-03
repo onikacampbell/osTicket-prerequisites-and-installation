@@ -176,15 +176,17 @@ PHP Manager was used to verify that PHP was successfully registered with IIS and
 
 <h3>Step 5 - Install Microsoft Visual C++ Redistributable</h3>
 
-<p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="Visual C++ Redistributable"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/32ec1522-343b-46b8-b8d2-18391358c7da" width="80%" alt="Microsoft Visual C++ Redistributable"/>
+</p>
+
+<p align="center">
+<b>Figure 11.</b> Microsoft Visual C++ 2015–2022 Redistributable (x86) installed successfully.
 </p>
 
 <p>
-Install the Microsoft Visual C++ Redistributable required by PHP.
+The Microsoft Visual C++ 2015–2022 Redistributable (x86) was installed to provide the runtime libraries required by PHP. This dependency ensures that PHP and the osTicket application can run properly within the IIS web server environment.
 </p>
-
-<br />
 
 <h3>Step 6 - Install MySQL</h3>
 
