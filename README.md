@@ -51,8 +51,7 @@ A Windows 11 virtual machine was created in Microsoft Azure to host the osTicket
 <h3>Step 2 - Install Internet Information Services (IIS)</h3>
 
 <p align="center">
-  <img src="PASTE-WINDOWS-FEATURES-IMAGE-LINK-HERE" width="80%" alt="Windows Features - IIS"/>
-</p>
+  <img src="https://github.com/user-attachments/assets/39b2e647-95ca-4a1c-b99d-811491905b1c" width="80%" alt="Windows Features - IIS"/>
 
 <p align="center">
 <b>Figure 2.</b> Internet Information Services (IIS) enabled through the Windows Features menu.
@@ -65,7 +64,7 @@ Internet Information Services (IIS) was enabled by selecting the required web se
 <br>
 
 <p align="center">
-  <img src="PASTE-IIS-MANAGER-IMAGE-LINK-HERE" width="80%" alt="IIS Manager"/>
+  <img src="https://github.com/user-attachments/assets/648cb690-9ef6-4bfe-b257-3a66e93f4cea" width="80%" alt="IIS Manager"/>
 </p>
 
 <p align="center">
