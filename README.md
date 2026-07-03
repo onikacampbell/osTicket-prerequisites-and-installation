@@ -134,15 +134,45 @@ After both components were installed, IIS Manager was opened to verify that the 
 
 <h3>Step 4 - Install PHP</h3>
 
-<p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="Install PHP"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/835b758a-769a-4e2c-8144-dfdc20d60669" width="80%" alt="PHP Installation Folder"/>
+</p>
+
+<p align="center">
+<b>Figure 8.</b> PHP extracted to the <code>C:\PHP</code> directory.
 </p>
 
 <p>
-Extract PHP to the correct directory and register it with IIS.
+The PHP package was extracted to the <code>C:\PHP</code> directory, where the PHP executable files were stored for use by Internet Information Services (IIS).
 </p>
 
-<br />
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0954d452-81e3-46b3-bad7-cba06280eeb6" width="80%" alt="FastCGI Settings"/>
+</p>
+
+<p align="center">
+<b>Figure 9.</b> FastCGI configured to use the PHP executable.
+</p>
+
+<p>
+FastCGI Settings were configured to register <code>C:\PHP\php-cgi.exe</code>, enabling IIS to process PHP requests for the osTicket application.
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3fb500ab-b105-4b3d-9bd7-9e4d318bfde9" width="80%" alt="PHP Manager"/>
+</p>
+
+<p align="center">
+<b>Figure 10.</b> PHP Manager confirming the successful PHP configuration.
+</p>
+
+<p>
+PHP Manager was used to verify that PHP was successfully registered with IIS and that the required PHP configuration files and extensions were available before proceeding with the remaining osTicket installation.
+</p>
 
 <h3>Step 5 - Install Microsoft Visual C++ Redistributable</h3>
 
