@@ -52,6 +52,7 @@ A Windows 11 virtual machine was created in Microsoft Azure to host the osTicket
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/39b2e647-95ca-4a1c-b99d-811491905b1c" width="80%" alt="Windows Features - IIS"/>
+  </p>
 
 <p align="center">
 <b>Figure 2.</b> Internet Information Services (IIS) enabled through the Windows Features menu.
@@ -88,19 +89,48 @@ IIS Manager was opened to verify that the web server was installed correctly and
 <p>
 The default IIS landing page was successfully displayed, confirming that the web server was operational and able to serve web content before continuing with the remaining osTicket installation steps.
 </p>
+
+<h3>Step 3 - Install PHP Manager and IIS URL Rewrite Module</h3>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/02559a65-c713-44b2-9b5e-2775a520918b" width="80%" alt="PHP Manager Installation"/>
 </p>
 
-<h3>Step 3 - Install PHP Manager and IIS Rewrite Module</h3>
+<p align="center">
+<b>Figure 5.</b> PHP Manager for IIS successfully installed.
+</p>
 
 <p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="PHP Manager"/>
+PHP Manager for IIS was installed to simplify the configuration and management of PHP within Internet Information Services (IIS). This tool provides an interface for registering PHP and managing PHP settings required by the osTicket application.
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9cc3c823-5e1e-4ae2-99bd-396bf591d476" width="80%" alt="IIS URL Rewrite Module"/>
+</p>
+
+<p align="center">
+<b>Figure 6.</b> IIS URL Rewrite Module setup.
 </p>
 
 <p>
-Install PHP Manager and the IIS Rewrite Module required by osTicket.
+The IIS URL Rewrite Module was installed to enable URL rewriting functionality required by osTicket. This component allows IIS to process and rewrite incoming URL requests before they are handled by the web application.
 </p>
 
-<br />
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fb1fb21e-025c-4acb-9fbd-2ea804853023" width="80%" alt="PHP Manager and URL Rewrite in IIS"/>
+</p>
+
+<p align="center">
+<b>Figure 7.</b> IIS Manager displaying the PHP Manager and URL Rewrite modules after installation.
+</p>
+
+<p>
+After both components were installed, IIS Manager was opened to verify that the PHP Manager and URL Rewrite modules were successfully added and available for configuring the osTicket web application.
+</p>
 
 <h3>Step 4 - Install PHP</h3>
 
