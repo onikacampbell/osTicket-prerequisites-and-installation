@@ -234,22 +234,64 @@ After connecting successfully, HeidiSQL displayed the <code>osticket</code> data
 
 <h3>Step 8 - Install osTicket</h3>
 
-<p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="osTicket Installation"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/925d7547-9b7e-4542-be9f-00f732081f5a" width="80%" alt="osTicket Installation Files"/>
+</p>
+
+<p align="center">
+<b>Figure 15.</b> osTicket installation package prepared for deployment.
 </p>
 
 <p>
-Copy the osTicket files into the IIS web directory and complete the installation wizard.
+The osTicket installation package was extracted from the installation files and prepared for deployment to the IIS web root directory so that the application could be hosted by Internet Information Services (IIS).
 </p>
 
-<br />
+<br>
 
-<h2>Final Result</h2>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/03bd3b1d-3639-4e1c-b446-676efcdc58b5" width="80%" alt="osTicket Installer"/>
+</p>
 
-<p>
-<img src="YOUR-SCREENSHOT-HERE" width="80%" alt="osTicket Installed"/>
+<p align="center">
+<b>Figure 16.</b> osTicket installer confirming a successful installation.
 </p>
 
 <p>
-osTicket has been successfully installed and is ready for post-installation configuration.
+Accessing the osTicket installer displayed a message indicating that the application was already installed, confirming that the deployment had completed successfully and that the configuration files were in place.
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8ba584da-42c7-476e-8b67-1198354bb5b7" width="80%" alt="osTicket Agent Login"/>
+</p>
+
+<p align="center">
+<b>Figure 17.</b> osTicket Agent Login page.
+</p>
+
+<p>
+The Agent Login page was successfully displayed, confirming that the web application was accessible through IIS and ready to authenticate users.
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cd6dfe68-8e07-4cec-9cfe-9c32048bf636" width="80%" alt="osTicket Administrator Panel"/>
+</p>
+
+<p align="center">
+<b>Figure 18.</b> osTicket Administrator Panel after a successful login.
+</p>
+
+<p>
+After signing in with the administrator account, the osTicket dashboard loaded successfully, confirming that IIS, PHP, MySQL, and osTicket were configured correctly and that the help desk environment was ready for post-installation configuration.
+</p>
+
+<br>
+
+<h2>Installation Complete</h2>
+
+<p>
+The osTicket application was successfully deployed on a Windows 11 virtual machine hosted in Microsoft Azure using IIS, PHP, MySQL, and HeidiSQL. The environment is now fully configured and ready for post-installation tasks, including creating agents, departments, teams, SLA plans, help topics, and configuring the help desk workflow.
 </p>
