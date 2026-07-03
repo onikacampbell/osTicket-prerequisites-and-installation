@@ -51,7 +51,7 @@ A Windows 11 virtual machine was created in Microsoft Azure to host the osTicket
 <h3>Step 2 - Install Internet Information Services (IIS)</h3>
 
 <p align="center">
-  <img src="YOUR-IIS-FEATURES-IMAGE" width="80%" alt="Windows Features - IIS"/>
+  <img src="PASTE-WINDOWS-FEATURES-IMAGE-LINK-HERE" width="80%" alt="Windows Features - IIS"/>
 </p>
 
 <p align="center">
@@ -65,21 +65,21 @@ Internet Information Services (IIS) was enabled by selecting the required web se
 <br>
 
 <p align="center">
-  <img src="YOUR-IIS-MANAGER-IMAGE" width="80%" alt="IIS Manager"/>
+  <img src="PASTE-IIS-MANAGER-IMAGE-LINK-HERE" width="80%" alt="IIS Manager"/>
 </p>
 
 <p align="center">
-<b>Figure 3.</b> IIS Manager confirming that the web server was successfully installed.
+<b>Figure 3.</b> IIS Manager displaying the Features View after the successful installation of Internet Information Services (IIS).
 </p>
 
 <p>
-After installation, IIS Manager was opened to verify that the web server was installed successfully and ready for additional configuration required by osTicket.
+IIS Manager was opened to verify that the web server was installed correctly and to access the management console used for configuring websites, application pools, and server features throughout the osTicket installation.
 </p>
 
 <br>
 
 <p align="center">
-  <img src="YOUR-IIS-WELCOME-PAGE-IMAGE" width="80%" alt="Default IIS Website"/>
+  <img src="PASTE-IIS-WELCOME-PAGE-IMAGE-LINK-HERE" width="80%" alt="Default IIS Website"/>
 </p>
 
 <p align="center">
@@ -88,6 +88,7 @@ After installation, IIS Manager was opened to verify that the web server was ins
 
 <p>
 The default IIS landing page was successfully displayed, confirming that the web server was operational and able to serve web content before continuing with the remaining osTicket installation steps.
+</p>
 </p>
 
 <h3>Step 3 - Install PHP Manager and IIS Rewrite Module</h3>
